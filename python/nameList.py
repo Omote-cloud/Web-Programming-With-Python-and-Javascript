@@ -1,13 +1,12 @@
-#Create a List 
-names = ["Ron", "Harry", "Hermione"]
-
-#Print each name
-for name in names:
-    print(name)
+name = "Harry"
+for char in name:
+    print(char)
     
 """
     Output:
-    Ron
-    Harry
-    Hermione
+    H
+    a
+    r
+    r
+    y
 """
