@@ -1,7 +1,12 @@
 import sys
 
-x = int(input("X: "))
-y = int(input("Y: "))
+try:
+    x = int(input("X: "))
+    y = int(input("Y: "))
+except ValueError:
+    print("Error: Invalid input")
+    #Exit the program
+    sys.exit(1)
 
 try:
     result = x / y
