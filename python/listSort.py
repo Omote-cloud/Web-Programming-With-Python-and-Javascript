@@ -4,9 +4,7 @@ people = [
     {"name": "Draco", "house":"Slytherin"}
     ]
     
-def f(person):
-    return person["name"]
 
-people.sort
+people.sort(key= lambda person: person["name"])
 
 print(people)
